@@ -1,7 +1,12 @@
 # Zproj
-A linux terminal program to create project that has the project file and a Makefile.
+A linux terminal tool, to create simple C and C++ projects. I was orginal written in Bash, now its in C.
 
 # ***How to install it***
 
-Install Zproj over git or .Zip and go to the Directory. Then type "chmod +x setup", then "chmod +x zproj", and finally "./setup" into your Terminal.
-Now you can it by typing "zproj [Projectname]" in your Terminal.
+First run "make" in the Terminal, to Compile the Program, the Compiler used is Clang. You also can also use GCC, then just run "make gcc".
+
+When Compiled, run "make install" so you can use this Command tool everywhere.
+
+# Why?
+
+It's simply like a 30 Seconds Task that i just automated in 2 Hour, but it exist.
