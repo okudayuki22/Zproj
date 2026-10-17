@@ -9,3 +9,6 @@ all:
 
 gcc:
 	$(GCC) $(FLAGS_GCC) $(FILES) -o zproj
+
+install:
+	sudo cp zproj /usr/local/bin/
